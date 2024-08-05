@@ -1,0 +1,100 @@
+.top{
+    position: relative;
+    height: calc(100vh-30rem);
+    min-height: 42rem;
+    max-height: 57rem;
+    margin-bottom: 4rem;
+    width: 100%;
+}
+main .background-img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: calc(100vh - 30rem);
+        min-height: 42rem;
+        max-height: 57rem;
+        z-index: -1;
+        object-fit: cover;
+   
+}
+.top .center-contant{
+    position: absolute;
+    bottom: calc(50% - 11.1rem);
+    left: 50%;
+    transform: translateX(-50%);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 1.6rem;
+    width: 100%;
+    
+}
+main .main-logo {
+    height: 6rem;
+    width: 30rem;
+    position: relative;
+  }
+  main .top h1 {
+    margin-top: 3rem;
+    color: white;
+    text-align: center;
+    font-size: 3.6rem;
+    font-weight: 200;
+  }
+  main .top .city {
+    font-size: 36px;
+    font-weight: 700;
+  }
+  main .top .search-container{
+    margin-top: 3rem;
+    display: flex;
+    border-radius: 0.8rem;
+    background-color: white;
+    box-shadow: rgba(28, 28, 28, 0.08) 0px 2px 8px;
+    border: 1px solid rgb(232, 232, 232);
+    height: 5.4rem;
+    align-items: center;
+  }
+  main .top .search-container input{
+    border:none;
+  }
+  main .top .search-container div{
+    display: flex;
+    align-items:center;
+  }
+  main .top .search-container .location{
+    width: 24rem;
+    padding: 0 1rem;
+    justify-content: space-around;
+    
+  }
+ 
+  main .top .search-container .location svg{
+    color: rgb(250, 111, 111);
+  }
+  main .top .search-container .line{
+    width: 0rem;
+    height: 2rem;
+    border: 0.05rem solid rgb(207,207,207);
+  } main .top .search-container .search{
+    width: 53rem;
+    display: flex;
+    border-radius: 0.8rem;
+  }
+  main .top .search-container .search input{
+    flex: 1;
+   
+  }
+  main .top .search-container .search .search-icon{
+    width: 6rem;
+    margin: -1px -0.6rem -1px -1px ;
+    display: flex;
+    justify-content:center;
+    border-left: solid rgb(180, 178, 178);
+  
+  }
+  input:focus{
+    outline: none;
+  }
